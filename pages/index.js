@@ -4,14 +4,6 @@ import { Text, Card, Button, CheckBox } from "fictoan-react";
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <Card
-        padding="micro"
-        shape="rounded"
-        bgColour="salmon-40"
-        borderColour="salmon"
-      >
-        Test
-      </Card> */}
       <CheckBox
         as="input"
         id="checkbox-1"
